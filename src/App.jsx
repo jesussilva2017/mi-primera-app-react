@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import sena from './assets/sena.png'
 import './App.css'
 import Saludo from './components/saludo'; // Importa el componente
 
@@ -11,15 +10,12 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://www.sena.edu.co/es-co/Paginas/default.aspx" target="_blank">
+          <img src={sena} className="logo" alt="Vite logo" />
         </a>
       </div>
 
-      <h1>Vite + React</h1>
+      <h1>Mi primera app con Vite y React</h1>
 
       <div>
     {/* Usa el componente como una etiqueta HTML */}
